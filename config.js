@@ -4,8 +4,8 @@
 //
 window.NP_CONFIG = {
   wardName: 'Your Ward',
-  supabaseUrl: 'https://worhfijlrkaycjhczlia.supabase.co',
-  supabaseAnonKey: 'sb_publishable_0U9gorTJ5XmjHkdxEEf6hQ_OjWkU95Y',
+  supabaseUrl: "https://worhfijlrkaycjhczlia.supabase.co",
+  supabaseAnonKey: "sb_publishable_0U9gorTJ5XmjHkdxEEf6hQ_OjWkU95Y",
   timeZone: 'America/New_York',
   // Optional legacy announcement and calendar integration. Bishopric alerts use their own script.
   sheetsRefreshUrl: '',
