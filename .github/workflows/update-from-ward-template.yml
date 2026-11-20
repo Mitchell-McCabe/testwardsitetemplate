@@ -43,7 +43,7 @@ jobs:
               exit 1
             fi
           else
-            baseline="${BASELINE_INPUT:-5c1cd0dbbf189549d0c5e42480a44d9dc877a28d}"
+            baseline="${BASELINE_INPUT:-a57771134ef06889cd524c83596db85d580fa9c7}"
           fi
 
           if [[ ! "$baseline" =~ ^[0-9a-f]{40}$ ]] || ! git merge-base --is-ancestor "$baseline" "$latest"; then
